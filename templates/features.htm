@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features - AI Travel Planner</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}">
+    <style>
+        /* Reset and global styles */
+        body {
+            font-family: cursive;
+            margin: 0;
+            padding: 0;
+            max-width:  99vmax;
+            background-color: rgb(180, 237, 234); /* Light gray background */
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            color: black;
+            padding: 20px;
+        }
+
+        /* Navigation bar styles */
+        nav {
+            background-color: #749dc7; /* Blue background */
+            color: black;
+            padding: 10px 0;
+            text-align: center;
+            font-family: monospace;
+            color: black;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main section styles */
+        main {
+            padding: 20px;
+        }
+
+        section {
+            background-color: whitesmoke;
+            padding: 40px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #5a7b9e;
+        }
+
+        section p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #555;
+        }
+
+        section ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        section ul li {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+        section ul li strong {
+            font-weight: bold;
+            color: #769fca;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #8cbbed;
+            color: black;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer .contact-info,
+        footer .social-media {
+            margin-bottom: 20px;
+        }
+
+        footer .social-media ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        footer .social-media ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        footer .social-media ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        footer .social-media ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/features">Features</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section>
+            <h1>Our Features</h1>
+            <p>Explore the features of our AI Travel Planner and make your journey memorable.</p>
+            <ul>
+                <li><strong>Flight Search:</strong> Find the best flight deals based on your preferences.</li>
+                <li><strong>Hotel Recommendations:</strong> Discover comfortable stays at your destination.</li>
+                <li><strong>Destination Insights:</strong> Get insights and tips about your chosen travel spots.</li>
+                <li><strong>AI Chatbot:</strong> Interact with our AI for personalized travel advice and support.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="contact-info">
+            <h3>Contact Us</h3>
+            <p>Email: contact@aitravelplanner.com</p>
+            <p>Phone: +123-456-7890</p>
+        </div>
+        <div class="social-media">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+                <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
